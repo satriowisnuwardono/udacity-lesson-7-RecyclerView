@@ -61,6 +61,8 @@ class SleepTrackerFragment : Fragment() {
 
         binding.sleepTrackerViewModel = sleepTrackerViewModel
 
+        // TODO add GridLayout
+
         val adapter = SleepNightAdapter()
         binding.sleepList.adapter = adapter
 
