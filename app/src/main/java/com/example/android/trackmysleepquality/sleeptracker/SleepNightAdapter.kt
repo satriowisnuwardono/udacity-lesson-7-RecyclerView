@@ -40,7 +40,7 @@ class SleepNightAdapter(val clickListener:SleepNightListener): ListAdapter<Sleep
 
         fun bind(item: SleepNight, clickListener: SleepNightListener) {
             binding.sleep = item
-            binding.clickListener= clickListener
+            binding.clickListener = clickListener
             binding.executePendingBindings()
         }
 
